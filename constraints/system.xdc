@@ -132,7 +132,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports IO_B34_LN11]
 set_property IOSTANDARD LVCMOS33 [get_ports IO_B34_LN8]
 set_property IOSTANDARD LVCMOS33 [get_ports IO_B34_LP6]
 set_property PACKAGE_PIN C20 [get_ports {IO_B35_LP[1]}]
-set_property PACKAGE_PIN B20 [get_ports {IO_B35_LN[1]}]
+set_property PACKAGE_PIN B20 [get_ports {IO_B35_LN[1]}]  # This pin doesnt exist in zturn 7020
 set_property PACKAGE_PIN A20 [get_ports {IO_B35_LN[2]}]
 set_property PACKAGE_PIN B19 [get_ports {IO_B35_LP[2]}]
 set_property PACKAGE_PIN E17 [get_ports {IO_B35_LP[3]}]
